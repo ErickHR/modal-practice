@@ -21,6 +21,7 @@ html, body {
 
 body {
     background-color: var(--color-primary);
+    overflow: hidden;
 }
 
 .container {
@@ -114,10 +115,13 @@ body {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    transform: scale(1.2);
+    transition: all .5s ease;
 }
 
 .modal--active {
     visibility: visible;
+    transform: scale(1);
 }
 
 .modal__container {
