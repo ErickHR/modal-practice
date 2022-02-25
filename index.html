@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="profile">
+            <div class="profile__img-container">
+                <div class="profile__img-wrapper">
+                    <img src="img/Userpng.png" alt="" class="profile__img">
+                </div>
+            </div>
+            <div class="profile__information">
+                <span class="profile__text profile__text--name">
+                    Erick Rivas
+                </span>
+                <span class="profile__text profile__text--occupation">
+                    Software Developer
+                </span>
+            </div>
+            <div class="profile__button">
+                <button class="profile__button-wrapper">
+                    <span class="profile__icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <span class="profile__text">
+                        Hire Me
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal__container">
+                <div class="modal__button-close modal__icon-close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="modal__profile">
+                    <div class="profile__img-container profile__img-container--modal">
+                        <div class="profile__img-wrapper">
+                            <img src="img/Userpng.png" alt="" class="profile__img">
+                        </div>
+                    </div>
+                    <div class="profile__information profile__information--modal">
+                        <span class="profile__text profile__text--name">
+                            Erick Rivas
+                        </span>
+                        <span class="profile__text profile__text--occupation">
+                            Software Developer
+                        </span>
+                    </div>
+                </div>
+                <div class="modal__form">
+                    <textarea class="modal__textarea" placeholder="Enter your message"></textarea>
+                    <div class="modal__button-container">
+                        <button class="modal__button-close modal__button modal__button--close">
+                            Cancelar
+                        </button>
+                        <button class="modal__button modal__button--submit">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
